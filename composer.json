@@ -1,0 +1,30 @@
+{
+  "name": "verdient/irobotbox",
+  "description": "iRobotBox",
+  "type": "library",
+  "keywords": [
+    "iRobotBox"
+  ],
+  "homepage": "https://github.com/Verdient/irobotbox",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Verdient.",
+      "email": "fagui.zhu@foxmail.com",
+      "homepage": "https://github.com/Verdient"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/Verdient/irobotbox/issues",
+    "source": "https://github.com/Verdient/irobotbox"
+  },
+  "require": {
+    "php": ">=7.0.0",
+    "verdient/http-api": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Verdient\\IRobotBox\\": "src"
+    }
+  }
+}
