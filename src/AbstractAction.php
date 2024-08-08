@@ -42,7 +42,9 @@ abstract class AbstractAction
      */
     public function request(string $action, array $data = [])
     {
-        $options = [];
+        $options = [
+            'cache_wsdl' => WSDL_CACHE_DISK
+        ];
         if ($this->proxyHost) {
             $options['proxy_host'] = $this->proxyHost;
             $options['proxy_port'] = $this->proxyPort;
